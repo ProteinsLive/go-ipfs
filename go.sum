@@ -12,6 +12,8 @@ github.com/Kubuxu/go-os-helper v0.0.1 h1:EJiD2VUQyh5A9hWJLmc6iWg6yIcJ7jpBcwC8GMG
 github.com/Kubuxu/go-os-helper v0.0.1/go.mod h1:N8B+I7vPCT80IcP58r50u4+gEEcsZETFUpAzWW2ep1Y=
 github.com/ProteinsLive/go-libp2p-kad-dht v0.4.2-0.20200105203835-86d2491fe357 h1:03VGtq9GLQy7JkkMpVzmNTz00xN8lSTTgnMfjeJFOKk=
 github.com/ProteinsLive/go-libp2p-kad-dht v0.4.2-0.20200105203835-86d2491fe357/go.mod h1:DBAi7bvlVUuNAGc3cgbu9LzNJE1b3l8NuFlU94Ui52c=
+github.com/ProteinsLive/go-libp2p-kad-dht v0.4.2-0.20200105230258-b5538ab50b7a/go.mod h1:DBAi7bvlVUuNAGc3cgbu9LzNJE1b3l8NuFlU94Ui52c=
+github.com/ProteinsLive/go-libp2p-kad-dht v0.4.3/go.mod h1:DBAi7bvlVUuNAGc3cgbu9LzNJE1b3l8NuFlU94Ui52c=
 github.com/Stebalien/go-bitfield v0.0.0-20180330043415-076a62f9ce6e/go.mod h1:3oM7gXIttpYDAJXpVNnSCiUMYBLIZ6cb1t+Ip982MRo=
 github.com/Stebalien/go-bitfield v0.0.1 h1:X3kbSSPUaJK60wV2hjOPZwmpljr6VGCqdq4cBLhbQBo=
 github.com/Stebalien/go-bitfield v0.0.1/go.mod h1:GNjFpasyUVkHMsfEOk8EFLJ9syQ6SI+XWrX9Wf2XH0s=

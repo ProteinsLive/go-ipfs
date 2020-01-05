@@ -1,5 +1,7 @@
 module github.com/ipfs/go-ipfs
 
+replace github.com/libp2p/go-libp2p-kad-dht => github.com/ProteinsLive/go-libp2p-kad-dht v0.4.2-0.20200105191412-d886ad27426c // indirect
+
 require (
 	bazil.org/fuse v0.0.0-20180421153158-65cc252bf669
 	github.com/AndreasBriese/bbloom v0.0.0-20190823232136-616930265c33 // indirect

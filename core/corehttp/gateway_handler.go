@@ -159,7 +159,7 @@ func (i *gatewayHandler) getOrHeadHandler(w http.ResponseWriter, r *http.Request
 	// Service Worker registration request
 	if r.Header.Get("Service-Worker") == "script" {
 		// Disallow Service Worker registration on namespace roots
-		// https://github.com/ipfs/go-ipfs/issues/4025
+		// https://github.com/ProteinsLive/go-ipfs/issues/4025
 		matched, _ := regexp.MatchString(`^/ip[fn]s/[^/]+$`, r.URL.Path)
 		if matched {
 			err := fmt.Errorf("registration is not allowed for this scope")
@@ -322,7 +322,7 @@ func (i *gatewayHandler) getOrHeadHandler(w http.ResponseWriter, r *http.Request
 	}
 
 	// construct the correct back link
-	// https://github.com/ipfs/go-ipfs/issues/1365
+	// https://github.com/ProteinsLive/go-ipfs/issues/1365
 	var backLink string = prefix + urlPath
 
 	// don't go further up than /ipfs/$hash/
@@ -411,7 +411,7 @@ func (i *gatewayHandler) serveFile(w http.ResponseWriter, req *http.Request, nam
 	// Strip the encoding from the HTML Content-Type header and let the
 	// browser figure it out.
 	//
-	// Fixes https://github.com/ipfs/go-ipfs/issues/2203
+	// Fixes https://github.com/ProteinsLive/go-ipfs/issues/2203
 	if strings.HasPrefix(ctype, "text/html;") {
 		ctype = "text/html"
 	}

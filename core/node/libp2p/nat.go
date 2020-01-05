@@ -7,8 +7,8 @@ import (
 	libp2pquic "github.com/libp2p/go-libp2p-quic-transport"
 	"go.uber.org/fx"
 
-	"github.com/ipfs/go-ipfs/core/node/helpers"
-	"github.com/ipfs/go-ipfs/repo"
+	"github.com/ProteinsLive/go-ipfs/core/node/helpers"
+	"github.com/ProteinsLive/go-ipfs/repo"
 )
 
 var NatPortMap = simpleOpt(libp2p.NATPortMap())

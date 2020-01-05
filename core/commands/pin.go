@@ -21,10 +21,10 @@ import (
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	"github.com/ipfs/interface-go-ipfs-core/path"
 
-	core "github.com/ipfs/go-ipfs/core"
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
+	core "github.com/ProteinsLive/go-ipfs/core"
+	cmdenv "github.com/ProteinsLive/go-ipfs/core/commands/cmdenv"
+	e "github.com/ProteinsLive/go-ipfs/core/commands/e"
+	coreapi "github.com/ProteinsLive/go-ipfs/core/coreapi"
 )
 
 var PinCmd = &cmds.Command{

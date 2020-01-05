@@ -14,7 +14,7 @@ import (
 	opts "github.com/ipfs/interface-go-ipfs-core/options/namesys"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	routing "github.com/libp2p/go-libp2p-core/routing"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
+	dht "github.com/ProteinsLive/go-libp2p-kad-dht"
 	mh "github.com/multiformats/go-multihash"
 )
 

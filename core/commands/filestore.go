@@ -6,9 +6,9 @@ import (
 	"os"
 
 	filestore "github.com/ipfs/go-filestore"
-	core "github.com/ipfs/go-ipfs/core"
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
+	core "github.com/ProteinsLive/go-ipfs/core"
+	cmdenv "github.com/ProteinsLive/go-ipfs/core/commands/cmdenv"
+	e "github.com/ProteinsLive/go-ipfs/core/commands/e"
 
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-ipfs-cmds"

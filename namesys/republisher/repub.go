@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	keystore "github.com/ipfs/go-ipfs/keystore"
-	namesys "github.com/ipfs/go-ipfs/namesys"
+	keystore "github.com/ProteinsLive/go-ipfs/keystore"
+	namesys "github.com/ProteinsLive/go-ipfs/namesys"
 	path "github.com/ipfs/go-path"
 
 	proto "github.com/gogo/protobuf/proto"

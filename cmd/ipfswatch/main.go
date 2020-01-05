@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"syscall"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
-	corehttp "github.com/ipfs/go-ipfs/core/corehttp"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	commands "github.com/ProteinsLive/go-ipfs/commands"
+	core "github.com/ProteinsLive/go-ipfs/core"
+	coreapi "github.com/ProteinsLive/go-ipfs/core/coreapi"
+	corehttp "github.com/ProteinsLive/go-ipfs/core/corehttp"
+	fsrepo "github.com/ProteinsLive/go-ipfs/repo/fsrepo"
 
 	fsnotify "github.com/fsnotify/fsnotify"
 	config "github.com/ipfs/go-ipfs-config"
@@ -28,7 +28,7 @@ var watchPath = flag.String("path", ".", "the path to watch")
 
 func main() {
 	flag.Parse()
-
+	
 	// precedence
 	// 1. --repo flag
 	// 2. IPFS_PATH environment variable

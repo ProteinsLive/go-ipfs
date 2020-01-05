@@ -11,10 +11,10 @@ import (
 	"time"
 
 	version "github.com/ipfs/go-ipfs"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/coreapi"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	repo "github.com/ipfs/go-ipfs/repo"
+	core "github.com/ProteinsLive/go-ipfs/core"
+	"github.com/ProteinsLive/go-ipfs/core/coreapi"
+	namesys "github.com/ProteinsLive/go-ipfs/namesys"
+	repo "github.com/ProteinsLive/go-ipfs/repo"
 
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"

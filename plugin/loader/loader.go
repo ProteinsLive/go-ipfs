@@ -10,11 +10,11 @@ import (
 	config "github.com/ipfs/go-ipfs-config"
 	cserialize "github.com/ipfs/go-ipfs-config/serialize"
 
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/coreapi"
-	coredag "github.com/ipfs/go-ipfs/core/coredag"
-	plugin "github.com/ipfs/go-ipfs/plugin"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	"github.com/ProteinsLive/go-ipfs/core"
+	"github.com/ProteinsLive/go-ipfs/core/coreapi"
+	coredag "github.com/ProteinsLive/go-ipfs/core/coredag"
+	plugin "github.com/ProteinsLive/go-ipfs/plugin"
+	fsrepo "github.com/ProteinsLive/go-ipfs/repo/fsrepo"
 
 	ipld "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log"

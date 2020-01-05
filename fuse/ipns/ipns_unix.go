@@ -11,9 +11,9 @@ import (
 	"io"
 	"os"
 
-	core "github.com/ipfs/go-ipfs/core"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	resolve "github.com/ipfs/go-ipfs/namesys/resolve"
+	core "github.com/ProteinsLive/go-ipfs/core"
+	namesys "github.com/ProteinsLive/go-ipfs/namesys"
+	resolve "github.com/ProteinsLive/go-ipfs/namesys/resolve"
 
 	dag "github.com/ipfs/go-merkledag"
 	path "github.com/ipfs/go-path"

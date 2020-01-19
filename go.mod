@@ -2,7 +2,7 @@ module github.com/ProteinsLive/go-ipfs
 
 require (
 	bazil.org/fuse v0.0.0-20180421153158-65cc252bf669
-	github.com/ProteinsLive/go-libp2p-kad-dht v0.4.3
+	github.com/ProteinsLive/go-libp2p-kad-dht v0.4.4
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bren2010/proquint v0.0.0-20160323162903-38337c27106d
 	github.com/coreos/go-systemd v0.0.0-20190719114852-fd7a80b32e1f
